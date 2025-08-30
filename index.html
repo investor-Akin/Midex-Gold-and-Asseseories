@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIDEX GOLD - Premium Navigation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar-section -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-award-fill gold-accent me-2"></i>
+                MIDEX GOLD
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <i class="bi bi-award-fill gold-accent me-2"></i>
+                        MIDEX GOLD
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">
+                                <i class="bi nav-icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#collections">
+                                <i class="bi nav-icon"></i>Collections
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">
+                                <i class="b  nav-icon"></i>About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi nav-icon"></i>Reviews
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="d-flex mt-4 mt-lg-0" role="search">
+                        <button class="btn btn-chat">
+                            <i class="bi bi-chat-dots-fill"></i>Contact Me
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <div class="hero-badge">
+                        <i class="bi bi-award-fill me-2"></i>Limited Edition Collection
+                    </div>
+                    <h1 class="hero-title">Allow Yourself To Be A Step Ahead</h1>
+                    <p class="hero-subtitle">Choose a watch that Express your Uniqueness</p>
+                    <div class="hero-btns">
+                        <a href="#collections" class="hero-btn">
+                            <i class="bi bi-cart3"></i> Shop Collection
+                        </a>
+                        <a href="#about" class="hero-btn hero-btn-outline">
+                            <i class="bi bi-play-circle"></i> Our Story
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="watch-highlight">
+
+        </div>
+    </section>
+
+    <!-- collections Section -->
+    <section class="collections-section" id="collections">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-pre-titles">Watches</span>
+                <h2 class="section-title">Our Collection</h2>
+                <p class="section-subtitless">Simple, quality timepieces for everyone.</p>
+            </div>
+
+            <div class="category-filter">
+                <button class="category-btn" data-filter="all">All</button>
+                <button class="category-btn" data-filter="unisex">Unisex</button>
+                <button class="category-btn" data-filter="men">Men's</button>
+                <button class="category-btn" data-filter="women">Women's</button>
+            </div>
+
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="luxury">
+                    <div class="product-img-container">
+                        <img src="https://cdn.pixabay.com/photo/2013/07/25/11/52/watch-166854_1280.jpg"
+                            class="product-img" alt="Luxury Gold Watch">
+                        <div class="product-badge">Premium</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Royal Chronograph</h3>
+                        <div class="product-category">Luxury • Gold</div>
+                        <div class="product-price">₦20,000</div>
+                        <p class="product-description">Swiss movement, waterproof, leather strap.</p>
+                        <div class="product-actions">
+                            <button class="whatsapp-btn" data-product="Royal Chronograph" data-price="$349.99"
+                                data-category="Luxury Collection">
+                                <i class="bi bi-whatsapp"></i> Buy Now
+                            </button>
+                            <button class="details-btn">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card" data-category="men">
+                    <div class="product-img-container">
+                        <img src="https://cdn.pixabay.com/photo/2018/07/05/14/46/watches-3518474_1280.jpg"
+                            class="product-img" alt="Men's Luxury Watch">
+                        <div class="product-badge">Bestseller</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Executive Black</h3>
+                        <div class="product-category">Men's • Black</div>
+                        <div class="product-price">₦30,000</div>
+                        <p class="product-description">Automatic, date display, steel case.</p>
+                        <div class="product-actions">
+                            <button class="whatsapp-btn" data-product="Executive Black" data-price="$299.99"
+                                data-category="Men's Collection">
+                                <i class="bi bi-whatsapp"></i> Buy Now
+                            </button>
+                            <button class="details-btn">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card" data-category="women">
+                    <div class="product-img-container">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/29/13/39/analog-watch-1869928_1280.jpg"
+                            class="product-img" alt="Women's Luxury Watch">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Diamond Rose Gold</h3>
+                        <div class="product-category">Women's • Rose Gold</div>
+                        <div class="product-price">₦45,000</div>
+                        <p class="product-description">Diamonds, rose gold, quartz.</p>
+                        <div class="product-actions">
+                            <button class="whatsapp-btn" data-product="Diamond Rose Gold" data-price="$379.99"
+                                data-category="Women's Collection">
+                                <i class="bi bi-whatsapp"></i> Buy Now
+                            </button>
+                            <button class="details-btn">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card" data-category="unisex">
+                    <div class="product-img-container">
+                        <img src="https://watchlocker.ng/wp-content/uploads/2025/06/by1010-lifestyle-shot.jpg"
+                            class="product-img" alt="Unisex Watch">
+                        <div class="product-badge">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Silver Classic</h3>
+                        <div class="product-category">Unisex • Silver</div>
+                        <div class="product-price">₦10,000</div>
+                        <p class="product-description">Minimal design, mesh bracelet.</p>
+                        <div class="product-actions">
+                            <button class="whatsapp-btn" data-product="Silver Classic" data-price="$259.99"
+                                data-category="Unisex Collection">
+                                <i class="bi bi-whatsapp"></i> Buy Now
+                            </button>
+                            <button class="details-btn">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="cta-section">
+                <div class="container">
+                    <div class="cta-content">
+                        <h2 class="cta-title">Need Help?</h2>
+                        <p class="cta-subtitle">Contact us for custom orders or advice.</p>
+                        <a href="https://wa.me/+2349063915159" class="cta-btn" target="_blank">
+                            <i class="bi bi-whatsapp"></i> Chat Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="productModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModalLabel">Product Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="" class="img-fluid rounded" alt="Product Image" id="modalProductImage">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 id="modalProductTitle"></h3>
+                            <p class="text-muted" id="modalProductCategory"></p>
+                            <h4 class="text-warning" id="modalProductPrice"></h4>
+                            <p id="modalProductDescription"></p>
+                            <button class="whatsapp-btn w-100 mt-3">
+                                <i class="bi bi-whatsapp"></i> Order on WhatsApp
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- about section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-pre-title">Our Story</span>
+                <h2 class="section-title">The Story Behind Our Watches</h2>
+            </div>
+
+            <div class="row about-content">
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1607083206968-13611e3d76db?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Watch Craftsmanship">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <h2 class="about-heading">Curators of Time and <span>Craftsmanship</span></h2>
+                        <p class="about-description">
+                            Our journey began with a simple passion: an absolute love for watches. We're not just
+                            sellers; we are true enthusiasts who believe a timepiece is more than a tool it's a
+                            reflection of personal style and a piece of art. Every watch in our collection is handpicked
+                            for its unique story, flawless design, and incredible precision.
+
+
+                        </p>
+                        <p class="about-description">
+                            We take pride in building trust. That’s why we work only with authorized dealers and
+                            reputable watchmakers, guaranteeing that every watch comes with its full warranty and a
+                            promise of authenticity. Our goal is to make sure you're not just buying a timepiece, but
+                            investing in a valuable asset that will last a lifetime.
+
+
+                        </p>
+
+                        <div class="values-grid">
+                            <div class="value-card">
+                                <div class="value-icon">
+                                    <i class="bi bi-shield-check"></i>
+                                </div>
+                                <h3 class="value-title">Authenticity Guaranteed</h3>
+                                <p class="value-description">Your peace of mind is our priority. Every watch is 100% verified, and comes with its official package.</p>
+                            </div>
+
+                            <div class="value-card">
+                                <div class="value-icon">
+                                    <i class="bi bi-star"></i>
+                                </div>
+                                <h3 class="value-title">Premium Selection</h3>
+                                <p class="value-description">
+                                    We believe in quality over quantity. Our hand-selected collection features only the finest watches from top luxury brands
+                                </p>
+                            </div>
+
+                            <div class="value-card">
+                                <div class="value-icon">
+                                    <i class="bi bi-currency-exchange"></i>
+                                </div>
+                                <h3 class="value-title">Competitive Pricing</h3>
+                                <p class="value-description">We work to give you the best possible value, ensuring you receive a world-class watch at a fair market price.</p>
+                            </div>
+
+                            <div class="value-card">
+                                <div class="value-icon">
+                                    <i class="bi bi-headset"></i>
+                                </div>
+                                <h3 class="value-title">Expert Consultation</h3>
+                                <p class="value-description">Your perfect watch is out there. Let us guide you with personalized advice and expertise to help you find it</p>
+                            </div>
+                        </div>
+
+                        <div class="signature">
+                            <p class="signature-text">
+                                "We're not just selling watches; we're helping you find a piece of a legacy."
+                                <span class="signature-name">— MUHAMMED RAJI MOSHOOD - The face behind the brand </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Company Timeline -->
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022</span>
+                        <h3 class="timeline-title">The Beginning</h3>
+                        <p class="timeline-desc">It all started with a personal passion for watches, selling one of a kind timepieces to fellow enthusiasts.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023</span>
+                        <h3 class="timeline-title">Building Trust</h3>
+                        <p class="timeline-desc">Our commitment to quality earned us the trust of major watchmakers, making us an authorized retailer.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024</span>
+                        <h3 class="timeline-title">Global Reach</h3>
+                        <p class="timeline-desc">Our love for watches took us beyond borders, and we began serving collectors across the world</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025</span>
+                        <h3 class="timeline-title">Premium Collection</h3>
+                        <p class="timeline-desc">We brought together a curated collection of over 200+ luxury timepieces from top brands worldwide, a testament to our ongoing journey</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- reviews section -->
+    <section class="reviews-section" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-pre-title">Testimonials</span>
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Hear from clients who have experienced the excellence of MIDEX GOLD
+                    timepieces</p>
+            </div>
+
+            <div class="reviews-container">
+                <!-- Review 1 -->
+                <div class="review-panel active">
+                    <div class="review-content">
+                        <div class="review-header">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="James Wilson"
+                                class="reviewer-avatar">
+                            <div class="reviewer-info">
+                                <h4 class="reviewer-name">Ayantoyinbo Victor</h4>
+                                <p class="reviewer-title">Kdp Expert</p>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="review-title">Exceptional Quality & Service</h3>
+                        <p class="review-text">
+                            "I bought the Royal Chronograph last month, and I'm honestly blown away by the quality. The watch feels so solid and well-made, and the service was top-notch from start to finish. I'm already looking to get another one for my collection."
+                        </p>
+                        <div class="review-watch">
+                            <img src="https://cdn.pixabay.com/photo/2013/07/25/11/52/watch-166854_1280.jpg"
+                                alt="Royal Chronograph" class="watch-thumbnail">
+                            <p class="watch-name">Royal Chronograph</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="review-panel">
+                    <div class="review-content">
+                        <div class="review-header">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson"
+                                class="reviewer-avatar">
+                            <div class="reviewer-info">
+                                <h4 class="reviewer-name">Onigbinde Akinbowale</h4>
+                                <p class="reviewer-title">Real Estate Investor</p>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="review-title">Absolutely Stunning Piece</h3>
+                        <p class="review-text">
+                            "The Watch i bought from this brand is simply stunning! It's even more beautiful in person, and it goes with everything. I've received so many compliments on it already. The team was incredibly helpful and professional."
+                        </p>
+                        <div class="review-watch">
+                            <img src="https://cdn.pixabay.com/photo/2014/07/15/20/09/wristwatch-394204_1280.jpg"
+                                alt="Diamond Rose Gold" class="watch-thumbnail">
+                            <p class="watch-name">Diamond wristwatch</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="review-panel">
+                    <div class="review-content">
+                        <div class="review-header">
+                            <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Michael Chen"
+                                class="reviewer-avatar">
+                            <div class="reviewer-info">
+                                <h4 class="reviewer-name">Adetunji Michael</h4>
+                                <p class="reviewer-title">Investment Banker</p>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="review-title">Impressive Attention to Detail</h3>
+                        <p class="review-text">
+                            "As someone who appreciates craftsmanship, the Executive Black model is perfect. The attention to detail is superb, and the authentication documents gave me full confidence in my purchase. I truly feel like I got a valuable asset that will last for years"
+                        </p>
+                        <div class="review-watch">
+                            <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                                alt="Executive Black" class="watch-thumbnail">
+                            <p class="watch-name">Executive Black</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 4 -->
+                <div class="review-panel">
+                    <div class="review-content">
+                        <div class="review-header">
+                            <img src="https://randomuser.me/api/portraits/women/67.jpg" alt="Emma Rodriguez"
+                                class="reviewer-avatar">
+                            <div class="reviewer-info">
+                                <h4 class="reviewer-name">Ojo Joseph</h4>
+                                <p class="reviewer-title">Law Firm Partner</p>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="review-title">Perfect Gift for My Wife</h3>
+                        <p class="review-text">
+                            "I was looking for a gift for my wife and was so pleased with the personalized advice. I ended up getting the Silver Classic for her, and she absolutely loves it. The watch came beautifully packaged, and the whole experience was excellent."
+                        </p>
+                        <div class="review-watch">
+                            <img src="https://images.unsplash.com/photo-1547996160-81df9d3e4c2a?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                                alt="Silver Classic" class="watch-thumbnail">
+                            <p class="watch-name">Silver Classic</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 5 -->
+                <div class="review-panel">
+                    <div class="review-content">
+                        <div class="review-header">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="David Thompson"
+                                class="reviewer-avatar">
+                            <div class="reviewer-info">
+                                <h4 class="reviewer-name">Adaora Nwafor</h4>
+                                <p class="reviewer-title">Real Estate Developer</p>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="review-title">Outstanding Value</h3>
+                        <p class="review-text">
+                            "I've purchased luxury watches from big names before, but the value from MIDEX GOLD is unmatched. The Men's Leather Classic is now my everyday watch. The quality is solid, and the price was very fair for such a well-crafted piece. I'm a customer for life."
+                        </p>
+                        <div class="review-watch">
+                            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                                alt="Men's Leather Classic" class="watch-thumbnail">
+                            <p class="watch-name">Men's Leather Classic</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviews-navigation">
+                <button class="nav-btn prev-btn" id="prevBtn">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <div class="review-indicators" id="indicators">
+                    <button class="indicator active" data-index="0"></button>
+                    <button class="indicator" data-index="1"></button>
+                    <button class="indicator" data-index="2"></button>
+                    <button class="indicator" data-index="3"></button>
+                    <button class="indicator" data-index="4"></button>
+                </div>
+                <button class="nav-btn next-btn" id="nextBtn">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+            </div>
+
+            <div class="reviews-cta">
+                <h3>Experience the MIDEX GOLD Difference</h3>
+                <p>Join our community of satisfied customers and discover exceptional timepieces</p>
+                <a href="#collections" class="cta-btn">Browse Collection</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-pre-title">Get In Touch</span>
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">Reach out for inquiries, custom orders, or assistance with your timepiece
+                    selection</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="bi bi-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp</h3>
+                        <p>Quickest way to reach us for immediate assistance</p>
+                        <a href="https://wa.me/1234567890" class="contact-link" target="_blank">
+                            <i class="bi bi-chat-dots"></i> Start Chat
+                        </a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+                        <p>Send us detailed inquiries or requests</p>
+                        <a href="mailto:info@midexgold.com" class="contact-link">
+                            <i class="bi bi-envelope"></i> Send Email
+                        </a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+                        <h3>Call Us</h3>
+                        <p>Speak directly with our watch experts</p>
+                        <a href="tel:+1234567890" class="contact-link">
+                            <i class="bi bi-telephone"></i> Call Now
+                        </a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <h3>Visit Us</h3>
+                        <p>By appointment only at our luxury showroom</p>
+                        <a href="https://maps.google.com" class="contact-link" target="_blank">
+                            <i class="bi bi-geo-alt"></i> Get Directions
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <div class="form-header">
+                        <h3>Send us a Message</h3>
+                        <p>Fill out the form below and we'll respond within 24 hours</p>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="General Inquiry">General Inquiry</option>
+                                <option value="Product Information">Product Information</option>
+                                <option value="Custom Order">Custom Order</option>
+                                <option value="Customer Support">Customer Support</option>
+                                <option value="Wholesale Inquiry">Wholesale Inquiry</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <i class="bi bi-send"></i> Send Message via Email
+                        </button>
+                    </form>
+
+                    <div class="form-success" id="formSuccess">
+                        <i class="bi bi-check-circle"></i>
+                        <h3>Ready to Send!</h3>
+                        <p>Your email client will open with your message. Please click send to complete.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- faq section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-pre-title">Support</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Find answers to common questions about our luxury timepieces, ordering
+                    process, and customer care</p>
+            </div>
+
+            <div class="faq-container">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                    <button class="accordion">
+                        <span class="accordion-number">01</span>
+                        <span class="accordion-text">How do I ensure I'm purchasing an authentic MIDEX GOLD
+                            timepiece?</span>
+                        <span class="accordion-icon">
+                            <i class="bi bi-plus"></i>
+                        </span>
+                    </button>
+                    <div class="panel">
+                        <p>Every MIDEX GOLD watch comes with a certificate of authenticity, unique serial number, and
+                            official documentation. You can verify your timepiece through our online authentication
+                            system using the serial number located on the case back. We also recommend purchasing
+                            directly from our authorized retailers or official website to guarantee authenticity.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item">
+                    <button class="accordion">
+                        <span class="accordion-number">02</span>
+                        <span class="accordion-text">What is your warranty policy and what does it cover?</span>
+                        <span class="accordion-icon">
+                            <i class="bi bi-plus"></i>
+                        </span>
+                    </button>
+                    <div class="panel">
+                        <p>All MIDEX GOLD timepieces come with a 5-year international warranty that covers manufacturing
+                            defects and mechanical issues. The warranty includes:</p>
+                        <ul>
+                            <li>Full movement service and repairs</li>
+                            <li>Replacement of defective components</li>
+                            <li>Water resistance testing and resealing</li>
+                            <li>Timekeeping accuracy adjustments</li>
+                        </ul>
+                        <p>The warranty does not cover damage caused by accidents, improper handling, unauthorized
+                            repairs, or normal wear and tear of components like straps and crystals.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item">
+                    <button class="accordion">
+                        <span class="accordion-number">03</span>
+                        <span class="accordion-text">How long does shipping take and what are the delivery
+                            options?</span>
+                        <span class="accordion-icon">
+                            <i class="bi bi-plus"></i>
+                        </span>
+                    </button>
+                    <div class="panel">
+                        <p>We offer several shipping options to ensure your timepiece arrives safely and promptly:</p>
+                        <ul>
+                            <li><strong>Standard Shipping:</strong> 5-7 business days - Fully insured</li>
+                            <li><strong>Express Shipping:</strong> 2-3 business days - Priority handling with full
+                                insurance</li>
+                            <li><strong>White Glove Delivery:</strong> By appointment - Personal delivery, setup, and
+                                explanation of your timepiece (available in select metropolitan areas)</li>
+                        </ul>
+                        <p>All shipments include insurance, tracking, and require signature confirmation. International
+                            shipping typically takes 7-14 business days, depending on customs processing.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item">
+                    <button class="accordion">
+                        <span class="accordion-number">04</span>
+                        <span class="accordion-text">What is your return and exchange policy?</span>
+                        <span class="accordion-icon">
+                            <i class="bi bi-plus"></i>
+                        </span>
+                    </button>
+                    <div class="panel">
+                        <p>We offer a 30-day return policy for unworn watches with all original packaging and documents
+                            intact. For returns:</p>
+                        <ul>
+                            <li>Items must be in original condition with protective films intact</li>
+                            <li>All certificates and documents must be included</li>
+                            <li>Return shipping is complimentary within the first 14 days</li>
+                            <li>Refunds are processed within 5 business days of receiving the returned item</li>
+                        </ul>
+                        <p>Exchanges are available within 60 days of purchase. Custom and engraved timepieces are final
+                            sale unless defective.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item">
+                    <button class="accordion">
+                        <span class="accordion-number">05</span>
+                        <span class="accordion-text">How should I maintain and service my MIDEX GOLD watch?</span>
+                        <span class="accordion-icon">
+                            <i class="bi bi-plus"></i>
+                        </span>
+                    </button>
+                    <div class="panel">
+                        <p>Proper maintenance ensures your timepiece remains accurate and beautiful for generations:</p>
+                        <ul>
+                            <li><strong>Daily Care:</strong> Wipe with a soft, dry cloth. Avoid contact with chemicals,
+                                solvents, and salt water</li>
+                            <li><strong>Water Resistance:</strong> Have water resistance checked annually if frequently
+                                exposed to water</li>
+                            <li><strong>Service Intervals:</strong> Mechanical watches should be serviced every 3-5
+                                years</li>
+                            <li><strong>Magnetic Fields:</strong> Avoid prolonged exposure to strong magnetic fields
+                            </li>
+                            <li><strong>Storage:</strong> Store in original box away from extreme temperatures and
+                                humidity</li>
+                        </ul>
+                        <p>We offer comprehensive service packages starting at $250, including complete movement
+                            overhaul, cleaning, and pressure testing.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 6 -->
+                <div class="faq-item">
+                    <button class="accordion">
+                        <span class="accordion-number">06</span>
+                        <span class="accordion-text">Can I customize my watch with different straps or
+                            engravings?</span>
+                        <span class="accordion-icon">
+                            <i class="bi bi-plus"></i>
+                        </span>
+                    </button>
+                    <div class="panel">
+                        <p>Yes, we offer several customization options to make your timepiece uniquely yours:</p>
+                        <ul>
+                            <li><strong>Strap Options:</strong> Choose from alligator leather, stainless steel
+                                bracelets, rubber straps, or NATO bands in various colors</li>
+                            <li><strong>Personal Engraving:</strong> Add initials, special dates, or short messages on
+                                case backs (maximum 20 characters)</li>
+                            <li><strong>Custom Dials:</strong> Select from exclusive dial colors and finishes (available
+                                on certain models)</li>
+                            <li><strong>Buckle Options:</strong> Upgrade to deployment clasps or custom-designed buckles
+                            </li>
+                        </ul>
+                        <p>Customization options may extend delivery time by 2-3 weeks. All customizations are final and
+                            cannot be returned unless defective.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 7 -->
+                <div class="faq-item">
+                    <button class="accordion">
+                        <span class="accordion-number">07</span>
+                        <span class="accordion-text">Do you offer international shipping and what are the customs
+                            fees?</span>
+                        <span class="accordion-icon">
+                            <i class="bi bi-plus"></i>
+                        </span>
+                    </button>
+                    <div class="panel">
+                        <p>We ship to over 60 countries worldwide. International orders are subject to the following:
+                        </p>
+                        <ul>
+                            <li>All applicable customs duties, taxes, and import fees are the responsibility of the
+                                recipient</li>
+                            <li>We complete all necessary customs documentation accurately</li>
+                            <li>Shipping costs include insurance up to the full retail value</li>
+                            <li>Delivery times vary by destination (typically 7-21 business days)</li>
+                            <li>Some countries may have restrictions on luxury goods imports</li>
+                        </ul>
+                        <p>We recommend checking with your local customs office for specific import regulations and
+                            potential fees. For orders over $5,000, we recommend using our premium international
+                            shipping service which includes customs clearance assistance.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-support">
+                <div class="support-card">
+                    <i class="bi bi-question-circle"></i>
+                    <h4>Still Have Questions?</h4>
+                    <p>Our watch experts are available to assist you with any additional inquiries</p>
+                    <a href="#contact" class="support-btn">Contact Our Support Team</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <i class="bi bi-award-fill"></i>
+                            <span>MIDEX GOLD</span>
+                        </div>
+                        <p class="footer-tagline">Crafting timeless elegance for the discerning collector.</p>
+                    </div>
+
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h5>Collections</h5>
+                            <a href="#">Men's Watches</a>
+                            <a href="#">Women's Watches</a>
+                            <a href="#">New Arrivals</a>
+                        </div>
+
+                        <div class="footer-column">
+                            <h5>Support</h5>
+                            <a href="#contact">Contact Us</a>
+                            <a href="#faq">FAQ</a>
+                        </div>
+
+                        <div class="footer-column">
+                            <h5>Company</h5>
+                            <a href="#about">About Us</a>
+                            <a href="#about">Our Story</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-newsletter">
+                        <h5>Stay Updated</h5>
+                        <p>Subscribe for exclusive offers and new collections</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 MIDEX GOLD. All rights reserved.</p>
+                    <div class="legal-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
