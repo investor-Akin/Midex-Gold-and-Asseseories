@@ -290,3 +290,17 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+document.querySelectorAll('.footer-column h5').forEach(header => {
+    header.addEventListener('click', function() {
+        if (window.innerWidth <= 767.98) {
+            const parent = this.parentElement;
+            // Close others
+            document.querySelectorAll('.footer-column').forEach(col => {
+                if (col !== parent) col.classList.remove('active');
+            });
+            // Toggle current
+            parent.classList.toggle('active');
+        }
+    });
+});
